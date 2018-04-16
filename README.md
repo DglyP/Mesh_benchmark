@@ -39,7 +39,8 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+|Degly Sebastián Pava Pava|DglyP|
+|Carlos Arturo López|caralopezromUN|
 
 ## Entrega
 
@@ -49,3 +50,37 @@ Complete la tabla:
   2. Demo.
   3. Resultados (benchmark).
   4. Conclusiones.
+
+## Resultados
+
+### Introducción
+   
+   Por medio de la utilización de Processing y Java logramos representar dos métodos para renderizar un elemento. Estos dos métodos son el modo retenido y el modo inmediato.
+    
+   El modo retenido nos permite la interpretación de un objeto una sola vez, en el momento de su creación inicial. Esto nos permite hacer uso del mismo sin necesidad de interpretarlo de nuevo, lo cual implicaría más utilización de procesamiento y memoria. En la escena de Processing que se esté manejando nos da la posibilidad de utilizar la memoria RAM para mejorar el rendimiento y el tiempo de renderizado.
+    
+   El modo inmediato sin embargo, no cuenta con la posibilidad de guardar información relacionada al elemento renderizado en la memoria RAM, por lo que no es posible utilizarlo sin interpretarlo en cada uno de sus usos. Este tipo de acercamiento es ampliamente utilizado cuando la capacidad de almacenamiento al momento del renderizado no es la mejor.
+   
+### Resultados
+
+   El taller desarrollado se enfoca en el proceso de renderización de mallas poligonales con diferentes representaciones. El proyecto en el que se trabajó consiste en un numero variable de tetahedros que conforman juntos una manada que simula un agente con vida artificial.
+   
+   A partir de esto, tomamos dos representaciones diferentes y utilizamos las conocidas como Face-Vertex y Vertex-Vertex.
+ 
+<p align="center">
+  <img width="460" height="300" src="Benchmark/RETFV.png">
+  <img width="460" height="300" src="Benchmark/RETFV2.png">
+  <img width="460" height="300" src="Benchmark/Screenshot1.png">
+  <img width="460" height="300" src="Benchmark/INFV.png">
+  <img width="460" height="300" src="Benchmark/INFV2.png">
+  <img width="460" height="300" src="Benchmark/Screenshot2.png">
+  <img width="460" height="300" src="Benchmark/INVV.png">
+  <img width="460" height="300" src="Benchmark/INVV2.png">
+  <img width="460" height="300" src="Benchmark/Screenshot3.png">
+  <img width="460" height="300" src="Benchmark/RETVV.png">
+  <img width="460" height="300" src="Benchmark/RETVV2.png">
+  <img width="460" height="300" src="Benchmark/Screenshot4.png">
+
+</p>
+
+
